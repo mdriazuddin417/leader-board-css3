@@ -22,7 +22,7 @@
         <!-- top player and top blogs -->
         <section class=" container">
             <div class="top-players">
-                <h2 class="section-title">Top Players</h2>
+                <h2 id="top-players" class="section-title">Top Players</h2>
                 <div class="players">
                     <!-- .player*6>img[src="images/players/player-$.png"]+h3{Top Player-$} -->
                     <div class="player">
@@ -54,7 +54,7 @@
             <hr>
             <!-- top-players end -->
             <div class="top-blogs">
-                <h2 class="section-title">Top Blogs</h2>
+                <h2 id="top-blogs" class="section-title">Top Blogs</h2>
                 <div class="blogs">
                     <airticle class="blog">
                         <div class="thumbnail">
@@ -178,8 +178,17 @@
                     </div>
                 </div>
             </div>
+
+            <ul id="fruits">
+                <li class="fruit">Mango</li>
+                <li class="fruit">Banana</li>
+                <li class="fruit">Malta</li>
+            </ul>
+            <input id="input-count" type="text" value="0">
+            <button id="add-btn">Add new item</button>
         </section>
     </main>
+    <script src="JS/app.js"></script>
 </body>
 
 </html>
